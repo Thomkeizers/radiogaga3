@@ -1,0 +1,175 @@
+*{
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url(img/Barberoo.jpg);
+  height: 100vh;
+  background-size: cover;
+
+
+}
+
+html{
+  height: 100%;
+}
+
+.WelcomeMessage{
+  text-align: justify;
+  color: #616161;
+  font-size: 25px;
+  margin-left: 40px;
+  padding-top: 200px;
+  font-family: helvetica;
+
+
+}
+
+.header-btn{
+  margin-top: 20px;
+  border-radius: 25px;
+  width: 200px;
+  height: 75px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(242, 148, 131, 0.5);
+  border: 1px solid white;
+  font-family: helvetica;
+
+}
+
+.button-header-one{
+  margin-left: 170px;
+  display: inline-block;
+}
+
+.button-header-two{
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.header-btn:hover{
+  background-color:  #f29483;
+  border: 2px solid #616161;
+
+  transition: background-color, border, 1s;
+}
+
+/* -------------------------------------
+>>>>>>NAVIGATION<<<<<<
+------------------------------------- */
+
+
+.left-nav {
+  background-color: #252624;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+ .left-nav li {
+  display: inline;
+  margin-left: 40px;
+  font-size:20px;
+  font-family: helvetica;
+}
+
+.left-nav  a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.left-nav a:hover{
+  border-bottom: solid 2px rgba(242, 148, 131, 0.5);
+  transition: border-bottom, 0.2s;
+}
+
+/* -------------------------------------
+>>>>>>REGISTRATION<<<<<<
+------------------------------------- */
+
+.register-container{
+  background: url(img/barber.jpg);
+  overflow: hidden;
+
+  background-size: cover;
+
+
+}
+
+
+
+.register-form{
+  padding-top: 200px;
+
+
+
+}
+
+input[type=text], [type=email], [type=Adress], select{
+  width: 25%;
+  padding: 12px 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  font-family: helvetica;
+  text-align: center;
+  text-align-last: center;
+  display: inline-block;
+}
+
+
+.register-form label{
+  font-size: 25px;
+  font-family: helvetica;
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+
+  margin-right: 200px;
+
+}
+
+.btn-register{
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  width: 230px;
+  height: 45px;
+  font-family: helvetica;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: rgba(242, 148, 131, 0.9);
+  color: white;
+
+
+}
+
+.btn-register:hover{
+  background-color:  #f29483;
+  border: 2px solid #616161;
+  transition: background-color, border, 1s;
+}
+
+
+.name-nav a{
+  color: #f29483;
+}
+
+
+.register-div {
+  text-align: right;
+  margin-right: 175px;
+}
+
+.login-background {
+ background-image: url(img/login.jpg);
+ background-size: cover;
+ overflow: hidden;
+}
